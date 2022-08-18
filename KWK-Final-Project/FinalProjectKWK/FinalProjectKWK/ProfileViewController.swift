@@ -13,6 +13,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
     
+    @IBOutlet weak var label4: UILabel!
     
     @IBOutlet weak var field1: UITextField!
     @IBOutlet weak var field2: UITextField!
@@ -24,6 +25,7 @@ class ProfileViewController: UIViewController {
         label1.text = ProfilePage.name
         label2.text = ProfilePage.email
         label3.text = ProfilePage.bio
+//        label4.text = "Total points: " + String(ProfilePage.points)
         
         if (ProfilePage.isHidden) {
             field1.isHidden = true

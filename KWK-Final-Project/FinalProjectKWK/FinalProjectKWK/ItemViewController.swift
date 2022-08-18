@@ -20,6 +20,7 @@ class ItemViewController: UIViewController {
     @IBAction func confirmTapped(_ sender: UIButton) {
         
         getVal()
+        ProfilePage.points += Int((textField.text)!)!
     }
 
     /*
@@ -35,8 +36,8 @@ class ItemViewController: UIViewController {
    
     func getVal() {
         if Int((textField.text)!) != nil {
-              if Int((textField.text)!)! > 100 {
-                let alert = UIAlertController(title: "Warning!", message: "Cannot go over 100 lbs", preferredStyle: .alert)
+              if Int((textField.text)!)! > 100 || Int((textField.text)!)! < 0 {
+                let alert = UIAlertController(title: "Warning!", message: "Invalid weight", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: nil))
                 present(alert, animated: true, completion: {
                  return

@@ -20,6 +20,7 @@
 		BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24628AD6D2200A91F87 /* ItemViewController.swift */; };
 		BD39D24928AE7E7B00A91F87 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */; };
 		BD39D24B28AE817600A91F87 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24A28AE817600A91F87 /* ProfileViewController.swift */; };
+		BD9AEF5A28AEB90000774B41 /* doneVerifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AEF5928AEB90000774B41 /* doneVerifiedViewController.swift */; };
 		BD9AF29028ABDB0300243A74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF28F28ABDB0300243A74 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		BD39D24628AD6D2200A91F87 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		BD39D24A28AE817600A91F87 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BD9AEF5928AEB90000774B41 /* doneVerifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneVerifiedViewController.swift; sourceTree = "<group>"; };
 		BD9AF28F28ABDB0300243A74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				BD0B489B28AAD1150065863F /* SceneDelegate.swift */,
 				BD0B489D28AAD1150065863F /* ViewController.swift */,
 				BD0B489F28AAD1150065863F /* Main.storyboard */,
+				BD9AEF5928AEB90000774B41 /* doneVerifiedViewController.swift */,
 				BD39D24A28AE817600A91F87 /* ProfileViewController.swift */,
 				BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */,
 				BD39D24628AD6D2200A91F87 /* ItemViewController.swift */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9AEF5A28AEB90000774B41 /* doneVerifiedViewController.swift in Sources */,
 				BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */,
 				BD39D24328AC266900A91F87 /* VerificationViewController.swift in Sources */,
 				BD39D24928AE7E7B00A91F87 /* ProfilePage.swift in Sources */,
