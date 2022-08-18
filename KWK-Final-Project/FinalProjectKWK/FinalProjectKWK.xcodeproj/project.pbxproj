@@ -18,6 +18,8 @@
 		BD39D24328AC266900A91F87 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24228AC266900A91F87 /* VerificationViewController.swift */; };
 		BD39D24528AD248500A91F87 /* glacial-indifference in Resources */ = {isa = PBXBuildFile; fileRef = BD39D24428AD248500A91F87 /* glacial-indifference */; };
 		BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24628AD6D2200A91F87 /* ItemViewController.swift */; };
+		BD39D24928AE7E7B00A91F87 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */; };
+		BD39D24B28AE817600A91F87 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24A28AE817600A91F87 /* ProfileViewController.swift */; };
 		BD9AF29028ABDB0300243A74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF28F28ABDB0300243A74 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		BD39D24228AC266900A91F87 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		BD39D24428AD248500A91F87 /* glacial-indifference */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "glacial-indifference"; path = "../../../../../Downloads/glacial-indifference"; sourceTree = "<group>"; };
 		BD39D24628AD6D2200A91F87 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		BD39D24A28AE817600A91F87 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BD9AF28F28ABDB0300243A74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,8 @@
 				BD0B489B28AAD1150065863F /* SceneDelegate.swift */,
 				BD0B489D28AAD1150065863F /* ViewController.swift */,
 				BD0B489F28AAD1150065863F /* Main.storyboard */,
+				BD39D24A28AE817600A91F87 /* ProfileViewController.swift */,
+				BD39D24828AE7E7B00A91F87 /* ProfilePage.swift */,
 				BD39D24628AD6D2200A91F87 /* ItemViewController.swift */,
 				BD39D24228AC266900A91F87 /* VerificationViewController.swift */,
 				BD9AF28F28ABDB0300243A74 /* MapViewController.swift */,
@@ -160,9 +166,11 @@
 			files = (
 				BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */,
 				BD39D24328AC266900A91F87 /* VerificationViewController.swift in Sources */,
+				BD39D24928AE7E7B00A91F87 /* ProfilePage.swift in Sources */,
 				BD0B489E28AAD1150065863F /* ViewController.swift in Sources */,
 				BD0B489A28AAD1150065863F /* AppDelegate.swift in Sources */,
 				BD0B48A428AAD1150065863F /* FinalProjectKWK.xcdatamodeld in Sources */,
+				BD39D24B28AE817600A91F87 /* ProfileViewController.swift in Sources */,
 				BD9AF29028ABDB0300243A74 /* MapViewController.swift in Sources */,
 				BD0B489C28AAD1150065863F /* SceneDelegate.swift in Sources */,
 			);

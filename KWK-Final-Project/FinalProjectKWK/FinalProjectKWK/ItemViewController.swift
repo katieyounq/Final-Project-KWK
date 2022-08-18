@@ -12,12 +12,15 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        getVal()
 
         // Do any additional setup after loading the view.
     }
     
+
+    @IBAction func confirmTapped(_ sender: UIButton) {
+        
+        getVal()
+    }
 
     /*
     // MARK: - Navigation
@@ -31,11 +34,16 @@ class ItemViewController: UIViewController {
 
    
     func getVal() {
-        var points = Int(textField.text!)
-        if points > 100 {
-            textField.text = "0"
-        }
-        
+        if Int((textField.text)!) != nil {
+              if Int((textField.text)!)! > 100 {
+                let alert = UIAlertController(title: "Warning!", message: "Cannot go over 100 lbs", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: nil))
+                present(alert, animated: true, completion: {
+                 return
+                })
+              }
+
     }
-    
+
+}
 }

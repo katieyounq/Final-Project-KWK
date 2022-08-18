@@ -29,7 +29,7 @@ class MapViewController: UIViewController {
     @IBOutlet weak var title5: UILabel!
     @IBOutlet weak var body5: UILabel!
     
-    var isSelected = false
+    @IBOutlet weak var field: UITextField!
     
     override func viewDidLoad() {
         title1.isHidden = true
@@ -88,7 +88,33 @@ class MapViewController: UIViewController {
             body1.isHidden = false
         }
     }
-
+    
+    
+    @IBAction func searchButton(_ sender: UIButton) {
+        if(field.text)!.caseInsensitiveCompare(title1.text!) == .orderedSame {
+            title1.isHidden = !title1.isHidden
+            body1.isHidden = !body1.isHidden
+        } else if (field.text)!.caseInsensitiveCompare(title2.text!) == .orderedSame {
+            title2.isHidden = !title2.isHidden
+            body2.isHidden = !body2.isHidden
+        } else if (field.text)!.caseInsensitiveCompare(title3.text!) == .orderedSame {
+            title3.isHidden = !title3.isHidden
+            body3.isHidden = !body3.isHidden
+        } else if (field.text)!.caseInsensitiveCompare(title4.text!) == .orderedSame {
+            title4.isHidden = !title4.isHidden
+            body4.isHidden = !body4.isHidden
+        } else if (field.text)!.caseInsensitiveCompare(title5.text!) == .orderedSame {
+            title5.isHidden = !title5.isHidden
+            body5.isHidden = !body5.isHidden
+        } else {
+            let alert = UIAlertController(title: "Invalid", message: "Try a valid entry", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: nil))
+            present(alert, animated: true, completion: {
+             return
+            })
+        }
+    }
+    
     
     /*
     // MARK: - Navigation
