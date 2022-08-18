@@ -92,20 +92,60 @@ class MapViewController: UIViewController {
     
     @IBAction func searchButton(_ sender: UIButton) {
         if(field.text)!.caseInsensitiveCompare(title1.text!) == .orderedSame {
-            title1.isHidden = !title1.isHidden
-            body1.isHidden = !body1.isHidden
+            title1.isHidden = false
+            title2.isHidden = true
+            title3.isHidden = true
+            title4.isHidden = true
+            title5.isHidden = true
+            body1.isHidden = false
+            body2.isHidden = true
+            body3.isHidden = true
+            body4.isHidden = true
+            body5.isHidden = true
         } else if (field.text)!.caseInsensitiveCompare(title2.text!) == .orderedSame {
-            title2.isHidden = !title2.isHidden
-            body2.isHidden = !body2.isHidden
+            title1.isHidden = true
+            title2.isHidden = false
+            title3.isHidden = true
+            title4.isHidden = true
+            title5.isHidden = true
+            body1.isHidden = true
+            body2.isHidden = false
+            body3.isHidden = true
+            body4.isHidden = true
+            body5.isHidden = true
         } else if (field.text)!.caseInsensitiveCompare(title3.text!) == .orderedSame {
-            title3.isHidden = !title3.isHidden
-            body3.isHidden = !body3.isHidden
+            title1.isHidden = true
+            title2.isHidden = true
+            title3.isHidden = false
+            title4.isHidden = true
+            title5.isHidden = true
+            body1.isHidden = true
+            body2.isHidden = true
+            body3.isHidden = false
+            body4.isHidden = true
+            body5.isHidden = true
         } else if (field.text)!.caseInsensitiveCompare(title4.text!) == .orderedSame {
-            title4.isHidden = !title4.isHidden
-            body4.isHidden = !body4.isHidden
+            title1.isHidden = true
+            title2.isHidden = true
+            title3.isHidden = true
+            title4.isHidden = false
+            title5.isHidden = true
+            body1.isHidden = true
+            body2.isHidden = true
+            body3.isHidden = true
+            body4.isHidden = false
+            body5.isHidden = true
         } else if (field.text)!.caseInsensitiveCompare(title5.text!) == .orderedSame {
-            title5.isHidden = !title5.isHidden
-            body5.isHidden = !body5.isHidden
+            title1.isHidden = true
+            title2.isHidden = true
+            title3.isHidden = true
+            title4.isHidden = true
+            title5.isHidden = false
+            body1.isHidden = true
+            body2.isHidden = true
+            body3.isHidden = true
+            body4.isHidden = true
+            body5.isHidden = false
         } else {
             let alert = UIAlertController(title: "Invalid", message: "Try a valid entry", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: nil))
