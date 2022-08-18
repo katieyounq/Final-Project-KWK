@@ -8,20 +8,27 @@
 import UIKit
 
 class VerificationViewController: UIViewController {
-    var timer: Timer?
     
     @IBOutlet weak var spinner: UIActivityIndicatorView!
+ 
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         spinner.startAnimating()
         
-//        DispatchQueue.main.asyncAfter(deadline: .now() + (Double.random(in: 2...10))) {
-//            spinner.stopAnimating()
-//        }
+        let time = Double.random(in: 2...3)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + time) {
+            self.spinner.stopAnimating()
+
+        }
         // Do any additional setup after loading the view.
+        let timer = Timer.scheduledTimer(timeInterval: time, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
+    }
+    
+    @objc func timeToMoveOn() {
+        self.performSegue(withIdentifier: "goToFinalUI", sender: self)
     }
     
 

@@ -16,6 +16,8 @@
 		BD0B48A928AAD1180065863F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0B48A728AAD1180065863F /* LaunchScreen.storyboard */; };
 		BD0B48B128AAE7240065863F /* caviar-dreams in Resources */ = {isa = PBXBuildFile; fileRef = BD0B48B028AAE7240065863F /* caviar-dreams */; };
 		BD39D24328AC266900A91F87 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24228AC266900A91F87 /* VerificationViewController.swift */; };
+		BD39D24528AD248500A91F87 /* glacial-indifference in Resources */ = {isa = PBXBuildFile; fileRef = BD39D24428AD248500A91F87 /* glacial-indifference */; };
+		BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39D24628AD6D2200A91F87 /* ItemViewController.swift */; };
 		BD9AF29028ABDB0300243A74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF28F28ABDB0300243A74 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		BD0B48AA28AAD1180065863F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0B48B028AAE7240065863F /* caviar-dreams */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "caviar-dreams"; path = "../../../../../Downloads/caviar-dreams"; sourceTree = "<group>"; };
 		BD39D24228AC266900A91F87 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		BD39D24428AD248500A91F87 /* glacial-indifference */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "glacial-indifference"; path = "../../../../../Downloads/glacial-indifference"; sourceTree = "<group>"; };
+		BD39D24628AD6D2200A91F87 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		BD9AF28F28ABDB0300243A74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +72,7 @@
 				BD0B489B28AAD1150065863F /* SceneDelegate.swift */,
 				BD0B489D28AAD1150065863F /* ViewController.swift */,
 				BD0B489F28AAD1150065863F /* Main.storyboard */,
+				BD39D24628AD6D2200A91F87 /* ItemViewController.swift */,
 				BD39D24228AC266900A91F87 /* VerificationViewController.swift */,
 				BD9AF28F28ABDB0300243A74 /* MapViewController.swift */,
 				BD0B48A528AAD1180065863F /* Assets.xcassets */,
@@ -75,6 +80,7 @@
 				BD0B48B028AAE7240065863F /* caviar-dreams */,
 				BD0B48AA28AAD1180065863F /* Info.plist */,
 				BD0B48A228AAD1150065863F /* FinalProjectKWK.xcdatamodeld */,
+				BD39D24428AD248500A91F87 /* glacial-indifference */,
 			);
 			path = FinalProjectKWK;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 				BD0B48B128AAE7240065863F /* caviar-dreams in Resources */,
 				BD0B48A928AAD1180065863F /* LaunchScreen.storyboard in Resources */,
 				BD0B48A628AAD1180065863F /* Assets.xcassets in Resources */,
+				BD39D24528AD248500A91F87 /* glacial-indifference in Resources */,
 				BD0B48A128AAD1150065863F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39D24728AD6D2200A91F87 /* ItemViewController.swift in Sources */,
 				BD39D24328AC266900A91F87 /* VerificationViewController.swift in Sources */,
 				BD0B489E28AAD1150065863F /* ViewController.swift in Sources */,
 				BD0B489A28AAD1150065863F /* AppDelegate.swift in Sources */,
