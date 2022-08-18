@@ -20,7 +20,7 @@ class ItemViewController: UIViewController {
     @IBAction func confirmTapped(_ sender: UIButton) {
         
         getVal()
-        ProfilePage.points += Int((textField.text)!)!
+    
     }
 
     /*
@@ -43,7 +43,8 @@ class ItemViewController: UIViewController {
                  return
                 })
               }
-
+            ProfilePage.total += Int((textField.text)!)!
+            ProfilePage.points = Int((textField.text)!)!
     }
 
 }

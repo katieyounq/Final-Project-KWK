@@ -25,7 +25,7 @@ class ProfileViewController: UIViewController {
         label1.text = ProfilePage.name
         label2.text = ProfilePage.email
         label3.text = ProfilePage.bio
-//        label4.text = "Total points: " + String(ProfilePage.points)
+        label4.text = "Total points: " + String(ProfilePage.points)
         
         if (ProfilePage.isHidden) {
             field1.isHidden = true
